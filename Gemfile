@@ -17,7 +17,7 @@ gem 'rake'
 gem 'thin'
 
 # group :development do
-  # gem "shotgun"
+#   gem "shotgun"
 # end
 
 group :production do

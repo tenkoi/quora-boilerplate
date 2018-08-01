@@ -7,22 +7,22 @@ The directory structure emulates Rails MVC Framework using Sinatra.
 ```
 quora-boilerplate
   ├─ config/
-  │  ├── database.rb
-  │  └── init.rb
-  ├─ controllers/                       
+  │  ├── database.rb      <-- config for connecting to postgresql
+  │  └── init.rb          <-- app config file
+  ├─ controllers/         <-- folder for controllers               
   ├─ db/
-  │  └── migrate/                       
-  ├─ helpers/
-  ├─ models/            
-  ├─ public/
+  │  └── migrate/         <-- folder for AR migrations
+  ├─ helpers/             <-- folder for helpers
+  ├─ models/              <-- folder for AR models
+  ├─ public/              <-- folder for public assets (CSS, JS, images)
   │  ├── css
   │  └── js
   ├─ views/
-  │  └── application.erb
-  ├─ Rakefile
+  │  └── application.erb  <-- main template
+  ├─ Rakefile             <-- contains rake tasks to run CLI/server commands
   ├─ README.md
-  ├─ app.rb
-  └─ Gemfile
+  ├─ app.rb               <-- initial controller
+  └─ Gemfile              <-- to include Ruby gems
 ```
 
 ### Getting Started
