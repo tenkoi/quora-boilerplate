@@ -29,7 +29,7 @@ quora-boilerplate
 1. Run ```bundle install``` to install all gem dependencies
 2. Start the server by running ```ruby app.rb```
 
-#### Note: Everytime you change a file, you will need to restart the  server. 
+**Note:** Everytime you change a file, you will need to restart the  server. 
 ___
 #### Enabling live-reload with `shotgun`:
 1. Open `Gemfile` and uncomment
