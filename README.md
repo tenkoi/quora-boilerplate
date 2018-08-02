@@ -30,4 +30,15 @@ quora-boilerplate
 2. Start the server by running ```ruby app.rb```
 
 #### Note:
-Everytime you change a file, you will need to restart the  server.
+Everytime you change a file, you will need to restart the  server. 
+___
+##### To enable live-reload with `shotgun`:
+1. Open `Gemfile` and uncomment
+```ruby
+group :development 
+  gem "shotgun"
+end
+```
+2. Remove `set :run, true` in `app.rb`
+3. Run `bundle install`
+4. Run server with `shotgun app.rb` or `bundle exec shotgun app.rb`
