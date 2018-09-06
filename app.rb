@@ -1,7 +1,7 @@
 require_relative './config/init.rb'
-set :run, true
 
 get '/' do
-  @name = "Bob Smith"
+  @name = "Faiz aaaaaaaAlias"
+  @date = Time.now
   erb :"home"
 end
